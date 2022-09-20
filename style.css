@@ -55,7 +55,7 @@ color: var(--primary-text-color);
     background-color:var(--background-color) ;
 }
 .hero-title{
-    font-style: normal;
+font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
@@ -65,4 +65,15 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--thirdly-text-color);
+}
+h1{
+    color: var(--primary-text-color);
+    width:350px;
+    height:220px;
+    background: green;
+    border-style: dashed;
+    top:15px;
+    right:10px ;
+    left:10px ;
+    bottom:20px ;
 }
