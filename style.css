@@ -1,10 +1,9 @@
-:root{
-    --accent-color: #2196F3;
-    --primary-text-color: #212121;
-    --secondary-text-color: 757575;
-    --thirdly-text-color: #FFFFFF;
-    --background-color
-}
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --background-color: #ffffff;
+  }
 body{
     font-family: "Roboto", sans-serif;
 color:var(-primary-text-color);
@@ -33,15 +32,13 @@ color:#212121;
  .nav-link,
  .contacts-link
 {
-    /* font-family: 'Roboto'; */
-font-style: normal;
+ font-family: 'Roboto'; 
+font-style: normal; 
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
- }
-}
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
@@ -59,21 +56,12 @@ font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-/* or 136% */
-
+/*  or 136%  */ 
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--thirdly-text-color);
-}
-h1{
-    color: var(--primary-text-color);
-    width:350px;
-    height:220px;
-    background: green;
-    border-style: dashed;
-    top:15px;
-    right:10px ;
-    left:10px ;
-    bottom:20px ;
-}
+header{
+    display: flex;
+    justify-content: center;
+} 
